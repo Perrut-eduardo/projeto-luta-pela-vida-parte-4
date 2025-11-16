@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto Luta Pela Vida</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="brand">
+      <img src="assets/images/logo.png" alt="Logo Projeto Luta Pela Vida">
+      <div class="brand-title">Projeto Luta Pela Vida</div>
+    </div>
+
+    <nav class="nav" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html" class="active">Início</a></li>
+        <li class="has-dropdown" tabindex="0">
+          <a href="projetos.html">Projetos</a>
+          <div class="dropdown" role="menu" aria-hidden="true">
+            <a href="pages/projetos.html#faixa-preta">Faixa Preta</a>
+            <a href="pages/projetos.html#formacao">Formação</a>
+            <a href="pages/projetos.html#camp">Camp</a>
+          </div>
+        </li>
+        <li><a href="pages/cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+
+    <button class="hamburger" aria-label="Abrir menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" aria-hidden="true">
+    <div class="panel">
+      <a href="index.html">Início</a>
+     <a href="pages/projetos.html">Projetos</a>
+      <a href="pages/cadastro.html">Cadastro</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero-inicial">
+    <div class="container text-center">
+        <h1>Transformando vidas através do Jiu-Jitsu</h1>
+        <p class="lead">Conheça nossos projetos sociais e esportivos.</p>
+        <button class="btn btn-primary" onclick="window.location='projetos.html'">Ver Projetos</button>
+    </div>
+</section>
+
+<!-- CARDS DESTAQUES -->
+<section class="container mt-3">
+  <h2 class="section-title">Destaques</h2>
+
+  <div class="cards">
+    <article class="card">
+      <img src="assets/images/projeto3.jpeg" alt="Faixa Preta na Vida">
+      <div class="card-body">
+        <h3>Faixa Preta na Vida</h3>
+        <p>Formação de atletas e cidadãos através do Jiu-Jitsu.</p>
+        <button class="btn btn-outline" onclick="window.location='projetos.html'">Saiba mais</button>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/images/projeto1.jpeg" alt="Projeto Social">
+      <div class="card-body">
+        <h3>Projeto Social</h3>
+        <p>Aulas gratuitas para crianças e jovens da comunidade.</p>
+        <button class="btn btn-outline" onclick="window.location='projetos.html'">Saiba mais</button>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/images/projeto2.jpeg" alt="Eventos e Campeonatos">
+      <div class="card-body">
+        <h3>Eventos e Campeonatos</h3>
+        <p>Participação em competições esportivas e educativas.</p>
+        <button class="btn btn-outline" onclick="window.location='projetos.html'">Saiba mais</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; 2025 Projeto Luta Pela Vida — Todos os direitos reservados.</p>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

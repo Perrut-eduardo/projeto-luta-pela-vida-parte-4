@@ -1,111 +1,111 @@
-# 🥋 Projeto Luta Pela Vida
+🥋🔥 Projeto Luta Pela Vida – Entrega IV
+Versionamento • Acessibilidade • Deploy • GitFlow
 
-Este projeto faz parte da iniciativa **Luta Pela Vida**, uma plataforma social que utiliza o **Jiu-Jitsu** como ferramenta de transformação, inclusão e disciplina para jovens e crianças da comunidade.
+👤 Aluno: Eduardo Perrut
 
-O objetivo do site é divulgar o projeto, cadastrar novos participantes e mostrar os resultados alcançados através da arte suave.
+🚀 1. Visão Geral
 
----
+Este repositório apresenta a versão final do Projeto Luta Pela Vida, desenvolvida para a Entrega IV, reunindo:
 
-## 🌐 Acesse o site
+✨ HTML5 • CSS3 • JavaScript
+✨ Acessibilidade conforme WCAG 2.1 – Nível AA
+✨ GitFlow + Versionamento Semântico
+✨ Deploy profissional com GitHub Pages
+✨ Otimização completa para produção
 
-🔗 **GitHub Pages:**  https://perrut-eduardo.github.io/projeto-luta-pela-vida-parte-4/
+O resultado é um site moderno, acessível, responsivo e publicado.
 
-🔗 **Repositório GitHub:** https://github.com/Perrut-eduardo/projeto-luta-pela-vida-parte-4.git
+🌐 2. Link do Projeto Publicado
 
-## 💡 Sobre o projeto
+🔵 GitHub Pages (Deploy):
+➡️ https://perrut-eduardo.github.io/projeto-luta-pela-vida-parte-4/index.html
 
-A **Plataforma Luta Pela Vida** foi criada como parte de um trabalho de desenvolvimento web, com foco em HTML, CSS e JavaScript.  
-O site apresenta três seções principais:
+🟣 Repositório GitHub:
+➡️ https://github.com/Perrut-eduardo/projeto-luta-pela-vida-parte-4.git
 
-- 🏠 **Página Inicial (index.html):**  
-  Introduz o projeto, sua missão, visão e impacto social.
+🎯 3. Objetivos da Entrega IV
+📁 3.1 Versionamento e Git/GitHub
 
-- 💪 **Projetos (projetos.html):**  
-  Exibe os projetos e ações realizados pela ONG, com imagens e descrições.
+✔ Uso completo da estratégia GitFlow
+✔ Commits padronizados e semânticos
+✔ Pull Requests documentados
+✔ Issues e Milestones para organização
+✔ Releases seguindo versionamento semântico (v1.0.0, v1.1.0...)
 
-- 📝 **Cadastro (cadastro.html):**  
-  Formulário para inscrição de novos alunos ou voluntários, com validações de campos obrigatórios.
+♿ 3.2 Acessibilidade (WCAG 2.1 – Nível AA)
 
----
+✔ Estrutura semântica profissional (header, main, nav...)
+✔ Navegação 100% via teclado
+✔ Skip link funcional
+✔ Contraste mínimo 4.5:1
+✔ Foco visível em todos os elementos interativos
+✔ Uso correto de ARIA para leitores de tela
+✔ Modo escuro totalmente acessível
+✔ Modo alto contraste ativável pelo usuário
 
-## 🧱 Estrutura de pastas
+⚡ 3.3 Otimização para Produção
 
-projeto-luta-pela-vida/
-│
-├── index.html
-├── projetos.html
-├── cadastro.html
-│
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ └── main.js
-│ └── images/
-│ ├── logo.png
-│ ├── alunos.jpg
-│ └── treino.jpg
-│
-└── README.md
+✔ HTML, CSS e JS minificados
+✔ Imagens otimizadas e comprimidas
+✔ Código revisado para desempenho
+✔ Melhor responsividade em todas as páginas
 
----
+📦 4. Arquivos Entregues
+📌 4.1 Repositório GitHub
 
-## ⚙️ Tecnologias utilizadas
+Código-fonte completo
 
-- **HTML5** → Estrutura das páginas  
-- **CSS3** → Estilos e layout responsivo  
-- **JavaScript (ES6)** → Interatividade e validações  
-- **Git & GitHub** → Controle de versão e hospedagem  
-- **GitHub Pages** → Publicação gratuita do site  
+Histórico limpo e bem estruturado
 
----
+PRs e Issues registrados
 
-## 💻 Como abrir o projeto localmente
+Releases publicados
 
-1. **Clone o repositório**
+📄 4.2 Documentação Técnica
 
-   ```bash
-   git clone https://github.com/Perrut-eduardo/projeto-luta-pela-vida.git
+README completo (este arquivo)
 
-2. **Entre na pasta do projeto:**
-cd projeto-luta-pela-vida
- 
-3. **Abra o arquivo principal:**
+Organização e descrição clara do projeto
 
-. Dê duplo clique no arquivo index.html, Ou 
-. No VS Code, use o plugin Live Server para rodar localmente.
+🌍 4.3 Deploy
 
-✅ Checklist de qualidade
+Publicado via GitHub Pages
 
-. ✅ Todas as imagens possuem atributo alt descritivo
+Acesso público e funcionando
 
-. ✅ Todos os campos obrigatórios do formulário possuem required
+🗂️ 5. Estrutura de Pastas
+/assets
+   /css
+      style.css
+      style.min.css
+   /js
+      script.js
+      script.min.js
+   /img
+index.html
+projetos.html
+cadastro.html
+README.md
 
-. ✅ HTML validado no W3C Validator
+🌱 6. Fluxo de Versionamento (GitFlow)
 
-. ✅ Repositório público no GitHub
+🔵 main → código estável (produção)
+🟣 develop → ambiente de desenvolvimento
+🟩 feature/ → novas funcionalidades
+🟠 release/ → preparação de versões
+🔴 hotfix/ → correções urgentes em produção
 
-. ✅ GitHub Pages ativo e acessível
+🛠️ 7. Tecnologias Utilizadas
 
-. ✅ Estrutura organizada (HTML, CSS, JS e imagens separados)
+🧩 HTML5
+🎨 CSS3
+⚙️ JavaScript
+🌐 Git + GitHub
+🚀 GitHub Pages (Deploy)
+♿ WCAG 2.1
+💻 VS Code
 
-. ✅ Responsividade básica testada
+👤 8. Autor
 
-
-✉️ Contato
-
-Autor: Perrut Eduardo
-📍 Projeto Social Luta Pela Vida
-📧 Email: perruteduardoads@gmail.com
-🌍 GitHub: @Perrut-eduardo
-
-📜 Licença
-
-Este projeto é de uso educacional e social, com o propósito de promover inclusão através do esporte.
-Você pode reutilizar o código com créditos ao autor.
-
-💬 “A luta é pela vida — e a vitória é servir.”
-
-
-
-
+Nome: Eduardo Perrut
+📘 Projeto Acadêmico – Entrega IV

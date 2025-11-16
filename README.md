@@ -8,7 +8,7 @@ O objetivo do site é divulgar o projeto, cadastrar novos participantes e mostra
 
 ## 🌐 Acesse o site
 
-🔗 **GitHub Pages:** [https://perrut-eduardo.github.io/projeto-luta-pela-vida/](https://perrut-eduardo.github.io/projeto-luta-pela-vida/)
+🔗 **GitHub Pages:** [https://perrut-eduardo.github.io/projeto-luta-pela-vida/](https://perrut-eduardo.github.io/projeto-luta-pela-vida-4/)
 
 🔗 **Repositório GitHub:** [https://github.com/Perrut-eduardo/projeto-luta-pela-vida](https://github.com/Perrut-eduardo/projeto-luta-pela-vida)
 

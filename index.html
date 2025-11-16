@@ -1,95 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Projeto Luta Pela Vida</title>
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css" />
 </head>
-
 <body>
+
+<a href="#conteudo-principal" class="skip-link">Pular para o conteúdo</a>
 
 <header class="header">
   <div class="container">
     <div class="brand">
-      <img src="assets/images/logo.png" alt="Logo Projeto Luta Pela Vida">
-      <div class="brand-title">Projeto Luta Pela Vida</div>
+      <img src="assets/images/logo.png" alt="Logo Projeto Luta Pela Vida" />
+      <h1 class="brand-title">Projeto Luta Pela Vida</h1>
     </div>
 
     <nav class="nav" aria-label="Menu principal">
       <ul>
         <li><a href="index.html" class="active">Início</a></li>
-        <li class="has-dropdown" tabindex="0">
-          <a href="projetos.html">Projetos</a>
-          <div class="dropdown" role="menu" aria-hidden="true">
-            <a href="pages/projetos.html#faixa-preta">Faixa Preta</a>
-            <a href="pages/projetos.html#formacao">Formação</a>
-            <a href="pages/projetos.html#camp">Camp</a>
+
+        <li class="has-dropdown">
+          <button 
+            class="dropdown-btn" 
+            aria-expanded="false" 
+            aria-controls="menu-projetos">
+            Projetos
+          </button>
+
+          <div id="menu-projetos" class="dropdown" role="menu" aria-hidden="true">
+            <a role="menuitem" href="pages/projetos.html#faixa-preta">Faixa Preta</a>
+            <a role="menuitem" href="pages/projetos.html#formacao">Formação</a>
+            <a role="menuitem" href="pages/projetos.html#camp">Camp</a>
           </div>
         </li>
+
         <li><a href="pages/cadastro.html">Cadastro</a></li>
       </ul>
     </nav>
 
-    <button class="hamburger" aria-label="Abrir menu">
-      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    <button class="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </button>
+
+    <button id="btn-contraste" class="btn-contraste" aria-pressed="false">Alto Contraste</button>
   </div>
 
-  <div class="mobile-nav" aria-hidden="true">
+  <nav id="mobile-nav" class="mobile-nav" aria-hidden="true">
     <div class="panel">
       <a href="index.html">Início</a>
-     <a href="pages/projetos.html">Projetos</a>
+      <a href="pages/projetos.html">Projetos</a>
       <a href="pages/cadastro.html">Cadastro</a>
     </div>
-  </div>
+  </nav>
 </header>
 
-<main>
-
-<!-- HERO -->
-<section class="hero-inicial">
-    <div class="container text-center">
-        <h1>Transformando vidas através do Jiu-Jitsu</h1>
-        <p class="lead">Conheça nossos projetos sociais e esportivos.</p>
-        <button class="btn btn-primary" onclick="window.location='projetos.html'">Ver Projetos</button>
+<main id="conteudo-principal">
+  <section class="hero-inicial">
+    <div class="container hero-content">
+      <h2>Transformando vidas através do Jiu-Jitsu</h2>
+      <p class="lead">Conheça nossos projetos sociais e esportivos.</p>
+      <a class="btn btn-primary" href="pages/projetos.html">Ver Projetos</a>
     </div>
-</section>
+  </section>
 
-<!-- CARDS DESTAQUES -->
-<section class="container mt-3">
-  <h2 class="section-title">Destaques</h2>
+  <section class="container mt-3">
+    <h2 class="section-title">Destaques</h2>
 
-  <div class="cards">
-    <article class="card">
-      <img src="assets/images/projeto3.jpeg" alt="Faixa Preta na Vida">
-      <div class="card-body">
-        <h3>Faixa Preta na Vida</h3>
-        <p>Formação de atletas e cidadãos através do Jiu-Jitsu.</p>
-        <button class="btn btn-outline" onclick="window.location='projetos.html'">Saiba mais</button>
-      </div>
-    </article>
+    <div class="cards">
+      <article class="card card-click" tabindex="0" role="link" aria-label="Faixa Preta na Vida">
+        <img src="assets/images/projeto3.jpeg" alt="Faixa Preta na Vida">
+        <div class="card-body">
+          <h3>Faixa Preta na Vida</h3>
+          <p>Formação de atletas e cidadãos através do Jiu-Jitsu.</p>
+          <a class="btn btn-outline" href="pages/projetos.html#faixa-preta">Saiba mais</a>
+        </div>
+      </article>
 
-    <article class="card">
-      <img src="assets/images/projeto1.jpeg" alt="Projeto Social">
-      <div class="card-body">
-        <h3>Projeto Social</h3>
-        <p>Aulas gratuitas para crianças e jovens da comunidade.</p>
-        <button class="btn btn-outline" onclick="window.location='projetos.html'">Saiba mais</button>
-      </div>
-    </article>
+      <article class="card card-click" tabindex="0" role="link" aria-label="Projeto Social de Formação">
+        <img src="assets/images/projeto1.jpeg" alt="Projeto Social">
+        <div class="card-body">
+          <h3>Projeto Social</h3>
+          <p>Aulas gratuitas para crianças e jovens da comunidade.</p>
+          <a class="btn btn-outline" href="pages/projetos.html#formacao">Saiba mais</a>
+        </div>
+      </article>
 
-    <article class="card">
-      <img src="assets/images/projeto2.jpeg" alt="Eventos e Campeonatos">
-      <div class="card-body">
-        <h3>Eventos e Campeonatos</h3>
-        <p>Participação em competições esportivas e educativas.</p>
-        <button class="btn btn-outline" onclick="window.location='projetos.html'">Saiba mais</button>
-      </div>
-    </article>
-  </div>
-</section>
-
+      <article class="card card-click" tabindex="0" role="link" aria-label="Eventos e Campeonatos">
+        <img src="assets/images/projeto2.jpeg" alt="Eventos e Campeonatos">
+        <div class="card-body">
+          <h3>Eventos e Campeonatos</h3>
+          <p>Participações esportivas e educativas para nossos alunos.</p>
+          <a class="btn btn-outline" href="pages/projetos.html#camp">Saiba mais</a>
+        </div>
+      </article>
+    </div>
+  </section>
 </main>
 
 <footer class="footer">

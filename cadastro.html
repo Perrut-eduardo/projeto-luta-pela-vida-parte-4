@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro - Projeto Luta Pela Vida</title>
+
+<!-- Caminho correto para a raiz -->
+<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="brand">
+      <!-- Caminho correto para a raiz -->
+      <img src="./assets/images/logo.png" alt="Logo Projeto Luta Pela Vida">
+      <div class="brand-title">Projeto Luta Pela Vida</div>
+    </div>
+
+    <nav class="nav" aria-label="Menu principal">
+      <ul>
+        <li><a href="./index.html">Início</a></li>
+
+        <li class="has-dropdown" tabindex="0">
+          <a href="./projetos.html">Projetos</a>
+
+          <div class="dropdown">
+            <a href="./projetos.html#faixa-preta">Faixa Preta</a>
+            <a href="./projetos.html#formacao">Formação</a>
+            <a href="./projetos.html#camp">Camp</a>
+          </div>
+        </li>
+
+        <li><a class="active" href="./cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+
+    <button class="hamburger" aria-label="Abrir menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+
+  <!-- MENU MOBILE COM CAMINHOS CORRETOS -->
+  <div class="mobile-nav">
+    <div class="panel">
+      <a href="./index.html">Início</a>
+      <a href="./projetos.html">Projetos</a>
+      <a href="./cadastro.html">Cadastro</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="container hero">
+  <h2>Cadastro de Aluno</h2>
+  <p class="lead">Preencha o formulário abaixo para participar de um dos nossos projetos.</p>
+</section>
+
+<section class="container mt-2">
+
+  <form class="form-card" id="formCadastro">
+    
+    <div class="form-group">
+      <label for="nome">Nome completo *</label>
+      <input type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="form-group">
+      <label for="idade">Idade *</label>
+      <input type="number" id="idade" name="idade" required>
+    </div>
+
+    <div class="form-group">
+      <label for="responsavel">Nome do responsável (se menor)</label>
+      <input type="text" id="responsavel" name="responsavel">
+    </div>
+
+    <div class="form-group">
+      <label for="projeto">Selecione o Projeto *</label>
+      <select id="projeto" name="projeto" required>
+        <option value="">Escolha...</option>
+        <option value="Faixa Preta na Vida">Faixa Preta na Vida</option>
+        <option value="Projeto Social de Formação">Projeto Social de Formação</option>
+        <option value="Campeonatos e Eventos">Campeonatos e Eventos</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="telefone">Telefone *</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="(DDD) 00000-0000" required>
+    </div>
+
+    <div class="form-group">
+      <label for="endereco">Endereço *</label>
+      <input type="text" id="endereco" name="endereco" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Enviar Cadastro</button>
+
+  </form>
+
+  <p id="mensagemSucesso" class="sucesso" style="display:none;">
+    Cadastro enviado com sucesso! Entraremos em contato em breve.
+  </p>
+
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; 2025 Projeto Luta Pela Vida - Todos os direitos reservados.</p>
+</footer>
+
+<!-- Caminho correto -->
+<script src="./assets/js/main.js" defer></script>
+
+<script>
+// Mensagem de sucesso fictícia (sem backend)
+document.getElementById("formCadastro").addEventListener("submit", function(e) {
+  e.preventDefault();
+  document.getElementById("mensagemSucesso").style.display = "block";
+  this.reset();
+});
+</script>
+
+</body>
+</html>

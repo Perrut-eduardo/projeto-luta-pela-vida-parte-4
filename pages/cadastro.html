@@ -4,7 +4,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Cadastro - Projeto Luta Pela Vida</title>
-<link rel="stylesheet" href="../assets/css/style.css" />
+
+<!-- Caminho ABSOLUTO: funciona em qualquer página no GitHub Pages -->
+<link rel="stylesheet" href="/projeto-luta-pela-vida-parte-4/assets/css/style.css" />
 </head>
 <body>
 
@@ -13,22 +15,34 @@
 <header class="header">
   <div class="container">
     <div class="brand">
-      <img src="../assets/images/logo.png" alt="Logo Projeto Luta Pela Vida" />
+      <img src="/projeto-luta-pela-vida-parte-4/assets/images/logo.png"
+           alt="Logo Projeto Luta Pela Vida" />
       <h1 class="brand-title">Projeto Luta Pela Vida</h1>
     </div>
 
     <nav class="nav" aria-label="Menu principal">
       <ul>
-        <li><a href="../index.html">Início</a></li>
+        <li><a href="/projeto-luta-pela-vida-parte-4/index.html">Início</a></li>
+
         <li class="has-dropdown">
-          <button class="dropdown-btn" aria-expanded="false" aria-controls="menu-projetos">Projetos</button>
+          <button class="dropdown-btn" aria-expanded="false" aria-controls="menu-projetos">
+            Projetos
+          </button>
+
           <div id="menu-projetos" class="dropdown" role="menu" aria-hidden="true">
-            <a role="menuitem" href="../pages/projetos.html#faixa-preta">Faixa Preta</a>
-            <a role="menuitem" href="../pages/projetos.html#formacao">Formação</a>
-            <a role="menuitem" href="../pages/projetos.html#camp">Camp</a>
+            <a role="menuitem" href="/projeto-luta-pela-vida-parte-4/pages/projetos.html#faixa-preta">
+              Faixa Preta
+            </a>
+            <a role="menuitem" href="/projeto-luta-pela-vida-parte-4/pages/projetos.html#formacao">
+              Formação
+            </a>
+            <a role="menuitem" href="/projeto-luta-pela-vida-parte-4/pages/projetos.html#camp">
+              Camp
+            </a>
           </div>
         </li>
-        <li><a href="cadastro.html" class="active">Cadastro</a></li>
+
+        <li><a href="/projeto-luta-pela-vida-parte-4/pages/cadastro.html" class="active">Cadastro</a></li>
       </ul>
     </nav>
 
@@ -36,14 +50,16 @@
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
 
-    <button id="btn-contraste" class="btn-contraste" aria-pressed="false">Alto Contraste</button>
+    <button id="btn-contraste" class="btn-contraste" aria-pressed="false">
+      Alto Contraste
+    </button>
   </div>
 
   <nav id="mobile-nav" class="mobile-nav" aria-hidden="true">
     <div class="panel">
-      <a href="../index.html">Início</a>
-      <a href="../pages/projetos.html">Projetos</a>
-      <a href="cadastro.html">Cadastro</a>
+      <a href="/projeto-luta-pela-vida-parte-4/index.html">Início</a>
+      <a href="/projeto-luta-pela-vida-parte-4/pages/projetos.html">Projetos</a>
+      <a href="/projeto-luta-pela-vida-parte-4/pages/cadastro.html">Cadastro</a>
     </div>
   </nav>
 </header>
@@ -104,6 +120,6 @@
   <p>&copy; 2025 Projeto Luta Pela Vida — Todos os direitos reservados.</p>
 </footer>
 
-<script src="../assets/js/main.js" defer></script>
+<script src="/projeto-luta-pela-vida-parte-4/assets/js/main.js" defer></script>
 </body>
 </html>
